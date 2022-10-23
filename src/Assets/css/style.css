@@ -1,0 +1,184 @@
+/* Modiay style */
+@font-face {
+    font-family: 'SFProDisplay';
+    src:url('../fonts/SFPRODISPLAYMEDIUM.OTF') format('woff'),
+    url('../fonts/SFPRODISPLAYMEDIUM.OTF') format('svg'),
+    url('../fonts/SFPRODISPLAYMEDIUM.OTF') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+.navbar{
+    margin-bottom: 30px;
+}
+.list-card{
+    overflow-y: auto;
+    height: 80vh !important;
+}
+.nav-logo {
+  height: 30px;
+  width: 12px;
+  margin-right: 5px;
+}
+.nav-link{
+    font-size: 16px !important;
+}
+.ct-flex-bottom {
+    margin-bottom: 50px !important;
+}
+body{
+    background-color: #f8f9fa !important;
+    font-family: SFProDisplay;
+}
+.ProcessingDiv {
+    top: 0 !important;
+    bottom: 0 !important;
+    width: 100%;
+    height: 100vh;
+    background: white;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    z-index: 10000 !important;
+}
+
+.center-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 85vh;
+}
+.loader-size {
+    width: 180px;
+}
+
+.card {
+    border-radius: 0 !important;
+}
+.card-body,.card-header  {
+    background-color: #F7F5E7;
+    border-radius: 0 !important;
+}
+.form-control {
+    background-color: #D9D9D9;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    border-radius: 0px !important;
+    padding: 0.87rem 0.75rem;
+    width: 90.67%;
+}
+label {
+    font-size: 16px;
+    font-weight: 500;
+    color: #374151;
+    line-height: 19.09px;
+    text-transform: capitalize;
+}
+h4 {
+    font-size: 28px;
+    font-weight: 500;
+    color: #000000;
+    font-family: SFProDisplay;
+}
+.form-control:focus {
+    color: #60A5FA !important;
+    border-color: #60A5FA !important;
+    box-shadow: 0 0 0 2px #60A5FA;
+}
+.btn-primary {
+    background-color: #60A5FA !important;
+    background-color: #60A5FA !important;
+    width: 91% !important;
+    border-radius: 0px;
+    padding: 15px;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 400;
+}
+.btnStyle {
+  font-size: 16px !important;
+  border: 1px solid;
+  display: inline-block;
+  color: #9CA3AF;
+  padding: 5px 7px;
+  border-radius: 10px;
+}
+.btnStyle a {
+    color: #60A5FA;
+}
+.btnStyle a:hover {
+   opacity: 0.3;
+   transition: 0.3s;
+}
+.btn-success {
+  color: #fff;
+  background-color: #60A5FA;
+  border-radius: 0px !important;
+  box-shadow: none !important;
+  margin-right: 6px;
+  text-transform: capitalize;
+  font-size: SFProDisplay;
+}
+.btn-success:hover {
+  background-color: #60A5FA;
+}
+.btn-danger {
+  background-color: #9CA3AF;
+  color: #fff;
+  border-radius: 0px !important;
+  box-shadow: none !important;
+  margin-right: 6px;
+  text-transform: capitalize;
+  font-size: SFProDisplay;
+}
+.btn-danger:hover {
+  background-color: #9CA3AF;
+}
+.text-secondary {
+  color: #9CA3AF !important;
+  opacity: 1 !important;
+  text-transform: capitalize !important;
+  font-family: SFProDisplay;
+  font-size: 12px !important;
+  font-weight: 600;
+  border-bottom: 2px solid #9CA3AF !important;
+}
+a:hover {
+    color: #60A5FA;;
+}
+.dtlTitle {
+    color: #9CA3AF;
+    font-size: 12px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+.detlasValue {
+    font-size: 14px;
+    color: #374151;
+    font-family: SFProDisplay;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+.detlasValue strong {
+    font-weight: 400;
+    border-bottom: 1px solid #9CA3AF;
+}
+.dFlex {
+  display: flex !important;
+  justify-content: space-between;
+}
+.listBnt {
+  background-color: #60A5FA;
+  border-radius: 7px;
+}
+.listBnt a {
+  color: #fff;
+}
+.navbar-logo {
+  width: 50px;
+  border-radius: 100px;
+  border: 1px solid #f7f7f7
+}
